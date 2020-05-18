@@ -1,0 +1,40 @@
+/* .top-area {
+    width: 100%;
+} */
+:root {
+ --maxWidth: 40rem;
+ --smallWidth: 85rem;
+ --fullWidth: 1500px;
+}
+
+    .topSectArea {
+        min-height: calc(35vh);
+        /* width: var(--fullWidth); */
+        background-color: #adb1ff;
+        display: grid;
+        align-content: center;
+        /* width: var(--smallWidth); */
+        max-width: var(--fullWidth);
+    }
+
+    .topSectArea h4 {
+        font-size: 1.25em;
+        text-align: center;
+    }
+
+    .topSectArea p {
+        font-size: 0.8em;
+        margin: 15px 30px 15px 30px;
+    }
+
+
+@media screen and (max-width: 768px) {
+    .topSectArea h4 {
+        padding: 20px 30px 0px 30px;
+    }
+    
+    .topSectArea {
+        display: grid;
+        font-size: 120%;
+    }
+}

@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  $DarkBlue: #051884;
+  $LightBlue: #a5e7f7;
+  // $mainBlue: #09c3f2;
+  $typeColor:#608bf7;
+  $Midblue: #1e33ce;
+  $typeForColor: #010207;
+
+  $veryDarkBlue: #001d5b;
+  $mainWhite: #fff;
+
+  body {
+    font-family: "Open Sans", sans-serif;
+    background: $mainWhite;
+    color: $veryDarkBlue;
+  }  
+
+  // .container {
+  //   margin: 20px 20px 0px 20px;
+    
+  // }
+  // .myClass {
+  //   display: grid;
+  //   grid-template-columns: repeat(3, minmax(200px, 1fr));
+  //   grid-template-rows: 1fr;
+  //   grid-column-gap: 20px;
+  //   grid-row-gap: 20px;
+  // }
+  .heads {
+    margin: 20px 0px 0px 0px;
+  }

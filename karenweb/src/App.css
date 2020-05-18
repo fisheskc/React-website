@@ -1,0 +1,67 @@
+:root {
+  /* --typeColor: #3b5af7; */
+  --DarkBlue: #2c4ef7;
+  --Midblue: #1e33ce;
+  --typeColor: #277ce5;
+  --ALink_SB:#f8f9fc;
+  --mainBlue: #09c3f2;
+  --smallWidth: 85vw;
+  --fullWidth: 1170px;
+}
+
+/* .App {
+  text-align: center;
+} */
+
+/* li {
+  list-style-type: none;
+} */
+
+.sun {
+  height: 2em;
+  pointer-events: none;
+}
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+} */
+
+.myhomep {
+  background-color: #c6e4ef;
+  padding: 20px 0px 20px 0px;
+}
+
+.heads {
+  margin: 30px 0px 0px 0px;
+  text-align: center;
+}
+
+.myWork {
+  background-color: #51525b;
+  text-align: center;
+  color:#fff;
+  padding: 15px 0px 30px 0px;
+}
+.square {
+  background-color: #79c6c5;
+  padding: 15px 0px 30px 0px;
+}
+
+/* .bannerCl {
+  min-height: calc(65vh);
+  url("./images/bridge.png") center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */

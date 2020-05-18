@@ -1,0 +1,42 @@
+@import "../index.scss";
+/* Navbar */
+:root {
+  --maxWidth: 40rem;
+  --smallWidth: 85rem;
+  --fullWidth: 1170px;
+ }
+.navbar {
+    // width: 1170px;
+    background: $veryDarkBlue;
+    padding: 0.5rem 1rem;
+    // grid-template-rows: 50% repeat(3, 1fr);
+    // grid-template-columns: 50% 1fr;
+  }
+// @media (min-width: 1150px) {
+  .sun {
+      align-self: end;
+  }
+
+    .nav-link {
+      color:  $typeColor;
+      text-transform: capitalize;
+      text-decoration: none;
+      font-size: 1.2rem;
+      transition: all 0.3s linear;
+      &:hover {
+        color:  $DarkBlue;
+      }
+    }
+    .active {
+      color: $LightBlue;
+    }
+ 
+  @media (max-width: 600px) {
+    .myNav {
+      display: grid;
+      // width: 85vw;
+      width: var(-smallWidth);
+      font-size: 100%;
+    }
+  }  
+

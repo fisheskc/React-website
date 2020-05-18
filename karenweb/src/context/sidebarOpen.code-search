@@ -1,0 +1,6 @@
+# Query: sidebarOpen
+
+1 result - 1 file
+
+src\components\Sidebar.js:
+  10:         const {links, dropDownMenu, handleDownMenu} = value;
